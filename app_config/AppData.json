@@ -1,0 +1,541 @@
+{
+  "shoulder_yaw": {
+    "minAngle": -1.5708,
+    "maxAngle": 1.5708,
+    "r_active": 18,
+    "r_passive": 74.5,
+    "tendon_diameter": 3,
+    "number_tendon_attachments": 1,
+    "number_pulleys": 2,
+    "right_pos_actuator_id": 1,
+    "right_neg_actuator_id": 2,
+    "left_pos_actuator_id": 3,
+    "left_neg_actuator_id": 4,
+    "inner_active_mounting_length": 33,
+    "outer_active_mounting_length": 16,
+    "passive_mounting_length": 0,
+    "sleeve_assembly_extra": 50,
+    "sleeve_cutting_ratio": 1.6,
+    "right": {
+      "tendons": {
+        "x_active_pos": 65.9,
+        "y_active_pos": 248.9,
+        "z_active_pos": 47.324,
+        "x_passive_pos": 0,
+        "y_passive_pos": 257,
+        "z_passive_pos": 176,
+        "x_coordinate_id": "x",
+        "y_coordinate_id": "-z",
+        "maxAngle_indicator": "b",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "r",
+        "neg_tendon": "b",
+        "x_tendon_pos": -10.988,
+        "y_tendon_pos": 261.683,
+        "z_tendon_pos": 253.325
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      }
+    },
+    "left": {
+      "tendons": {
+        "x_active_pos": -65.9,
+        "y_active_pos": 257.795,
+        "z_active_pos": 47.324,
+        "x_passive_pos": 0,
+        "y_passive_pos": 257,
+        "z_passive_pos": 176,
+        "x_coordinate_id": "x",
+        "y_coordinate_id": "-z",
+        "maxAngle_indicator": "b",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "r",
+        "neg_tendon": "b",
+        "x_tendon_pos": 10.988,
+        "y_tendon_pos": 252.317,
+        "z_tendon_pos": 253.325
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      }
+    }
+  },
+  "shoulder_roll": {
+    "minAngle": -1.5708,
+    "maxAngle": 1.5708,
+    "r_active": 18,
+    "r_passive": 50.5,
+    "tendon_diameter": 3,
+    "number_tendon_attachments": 1,
+    "number_pulleys": 2,
+    "right_pos_actuator_id": 5,
+    "right_neg_actuator_id": 6,
+    "left_pos_actuator_id": 7,
+    "left_neg_actuator_id": 8,
+    "inner_active_mounting_length": 33,
+    "outer_active_mounting_length": 16,
+    "passive_mounting_length": 0,
+    "sleeve_assembly_extra": 50,
+    "sleeve_cutting_ratio": 1.6,
+    "right": {
+      "tendons": {
+        "x_active_pos": 63.7,
+        "y_active_pos": 55.524,
+        "z_active_pos": 216.539,
+        "x_passive_pos": 0,
+        "y_passive_pos": 160,
+        "z_passive_pos": 219.925,
+        "x_coordinate_id": "x",
+        "y_coordinate_id": "y",
+        "maxAngle_indicator": "b",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "r",
+        "neg_tendon": "b",
+        "x_tendon_pos": -18.0125,
+        "y_tendon_pos": 201.4305,
+        "z_tendon_pos": 215.175
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      }
+    },
+    "left": {
+      "tendons": {
+        "x_active_pos": -63.7,
+        "y_active_pos": 55.524,
+        "z_active_pos": 226.111,
+        "x_passive_pos": 0,
+        "y_passive_pos": 160,
+        "z_passive_pos": 219.925,
+        "x_coordinate_id": "x",
+        "y_coordinate_id": "y",
+        "maxAngle_indicator": "b",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "r",
+        "neg_tendon": "b",
+        "x_tendon_pos": 19.206,
+        "y_tendon_pos": 201.183,
+        "z_tendon_pos": 224.363
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      }
+    }
+  },
+  "shoulder_pitch": {
+    "minAngle": 0,
+    "maxAngle": 1.57,
+    "r_active": 18,
+    "r_passive": 50,
+    "tendon_diameter": 3,
+    "number_tendon_attachments": 2,
+    "number_pulleys": 3,
+    "right_pos_actuator_id": 10,
+    "right_neg_actuator_id": 9,
+    "left_pos_actuator_id": 12,
+    "left_neg_actuator_id": 11,
+    "inner_active_mounting_length": 33,
+    "outer_active_mounting_length": 16,
+    "passive_mounting_length": 0,
+    "sleeve_assembly_extra": 50,
+    "sleeve_cutting_ratio": 1.6,
+    "right": {
+      "tendons": {
+        "x_active_pos": 0,
+        "y_active_pos": 160.622,
+        "z_active_pos": 159,
+        "x_passive_pos": 0.5,
+        "y_passive_pos": 219.896,
+        "z_passive_pos": 346.801,
+        "x_coordinate_id": "-z",
+        "y_coordinate_id": "y",
+        "maxAngle_indicator": "r",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "b",
+        "neg_tendon": "r",
+        "x_tendon_upper_pos": 5.5,
+        "y_tendon_upper_pos": 223.896,
+        "z_tendon_upper_pos": 397.189,
+        "x_tendon_lower_pos": 5.5,
+        "y_tendon_lower_pos": 169.373,
+        "z_tendon_lower_pos": 345.617,
+        "tendon_attachment_indicator": "n",
+        "x_middle_pos": 0,
+        "y_middle_pos": 182.5,
+        "z_middle_pos": 252.1
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      }
+    },
+    "left": {
+      "tendons": {
+        "x_active_pos": 0,
+        "y_active_pos": 160.622,
+        "z_active_pos": 159,
+        "x_passive_pos": 0.5,
+        "y_passive_pos": 219.896,
+        "z_passive_pos": 346.801,
+        "x_coordinate_id": "-z",
+        "y_coordinate_id": "y",
+        "maxAngle_indicator": "r",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "b",
+        "neg_tendon": "r",
+        "x_tendon_upper_pos": 5.5,
+        "y_tendon_upper_pos": 223.896,
+        "z_tendon_upper_pos": 397.189,
+        "x_tendon_lower_pos": 5.5,
+        "y_tendon_lower_pos": 169.373,
+        "z_tendon_lower_pos": 345.617,
+        "tendon_attachment_indicator": "n",
+        "x_middle_pos": 0,
+        "y_middle_pos": 182.5,
+        "z_middle_pos": 252.1
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      }
+    },
+    "r_middle": 9
+  },
+  "upperarm_roll": {
+    "minAngle": -3,
+    "maxAngle": 3,
+    "r_active": 15.6,
+    "r_passive": 43,
+    "tendon_diameter": 3,
+    "number_tendon_attachments": 2,
+    "number_pulleys": 2,
+    "right_pos_actuator_id": 0,
+    "right_neg_actuator_id": 0,
+    "left_pos_actuator_id": 0,
+    "left_neg_actuator_id": 0,
+    "inner_active_mounting_length": 33,
+    "outer_active_mounting_length": 7,
+    "passive_mounting_length": 0,
+    "sleeve_assembly_extra": 50,
+    "sleeve_cutting_ratio": 1.6,
+    "right": {
+      "tendons": {
+        "x_active_pos": 70,
+        "y_active_pos": 103.167,
+        "z_active_pos": 370.617,
+        "x_passive_pos": 0.355,
+        "y_passive_pos": 93.817,
+        "z_passive_pos": 333.117,
+        "x_coordinate_id": "x",
+        "y_coordinate_id": "z",
+        "maxAngle_indicator": "b",
+        "blue_alpha_passive_oversized": true,
+        "red_alpha_passive_oversized": true,
+        "pos_tendon": "b",
+        "neg_tendon": "r",
+        "x_tendon_upper_pos": -31.786,
+        "y_tendon_upper_pos": 108.317,
+        "z_tendon_upper_pos": 361.652,
+        "x_tendon_lower_pos": 6.303,
+        "y_tendon_lower_pos": 100.317,
+        "z_tendon_lower_pos": 290.577,
+        "tendon_attachment_indicator": "r"
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      }
+    },
+    "left": {
+      "tendons": {
+        "x_active_pos": -70,
+        "y_active_pos": 86.167,
+        "z_active_pos": 370.367,
+        "x_passive_pos": 0.355,
+        "y_passive_pos": 93.817,
+        "z_passive_pos": 333.117,
+        "x_coordinate_id": "x",
+        "y_coordinate_id": "z",
+        "maxAngle_indicator": "r",
+        "blue_alpha_passive_oversized": true,
+        "red_alpha_passive_oversized": true,
+        "pos_tendon": "b",
+        "neg_tendon": "r",
+        "x_tendon_upper_pos": -5.438,
+        "y_tendon_upper_pos": 92.317,
+        "z_tendon_upper_pos": 290.556,
+        "x_tendon_lower_pos": 32.365,
+        "y_tendon_lower_pos": 84.317,
+        "z_tendon_lower_pos": 361.798,
+        "tendon_attachment_indicator": "r"
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      }
+    }
+  },
+  "elbow": {
+    "minAngle": -0.1,
+    "maxAngle": 2.2,
+    "r_active": 15.6,
+    "r_passive": 40,
+    "tendon_diameter": 3,
+    "number_tendon_attachments": 1,
+    "number_pulleys": 2,
+    "right_pos_actuator_id": 17,
+    "right_neg_actuator_id": 18,
+    "left_pos_actuator_id": 19,
+    "left_neg_actuator_id": 20,
+    "inner_active_mounting_length": 33,
+    "outer_active_mounting_length": 7,
+    "passive_mounting_length": 7,
+    "sleeve_assembly_extra": 50,
+    "sleeve_cutting_ratio": 1.6,
+    "right": {
+      "tendons": {
+        "x_active_pos": 42.605,
+        "y_active_pos": 40.067,
+        "z_active_pos": 359.067,
+        "x_passive_pos": 41.73,
+        "y_passive_pos": -54.883,
+        "z_passive_pos": 373.117,
+        "x_coordinate_id": "-z",
+        "y_coordinate_id": "y",
+        "maxAngle_indicator": "r",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "b",
+        "neg_tendon": "r",
+        "x_tendon_pos": 32.105,
+        "y_tendon_pos": -78.145,
+        "z_tendon_pos": 348.243
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      }
+    },
+    "left": {
+      "tendons": {
+        "x_active_pos": -37.395,
+        "y_active_pos": 39.817,
+        "z_active_pos": 307.367,
+        "x_passive_pos": -35,
+        "y_passive_pos": -54.883,
+        "z_passive_pos": 373.117,
+        "x_coordinate_id": "z",
+        "y_coordinate_id": "y",
+        "maxAngle_indicator": "b",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": true,
+        "pos_tendon": "r",
+        "neg_tendon": "b",
+        "x_tendon_pos": -30.895,
+        "y_tendon_pos": -73.472,
+        "z_tendon_pos": 344.582
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 0
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      }
+    }
+  },
+  "wrist_pitch": {
+    "minAngle": -1.57,
+    "maxAngle": 1.57,
+    "r_active": 15.6,
+    "r_passive": 30,
+    "tendon_diameter": 3,
+    "number_tendon_attachments": 1,
+    "number_pulleys": 2,
+    "right_pos_actuator_id": 21,
+    "right_neg_actuator_id": 22,
+    "left_pos_actuator_id": 24,
+    "left_neg_actuator_id": 23,
+    "inner_active_mounting_length": 33,
+    "outer_active_mounting_length": 7,
+    "passive_mounting_length": 7,
+    "sleeve_assembly_extra": 50,
+    "sleeve_cutting_ratio": 1.6,
+    "right": {
+      "tendons": {
+        "x_active_pos": 36.294,
+        "y_active_pos": -202.863,
+        "z_active_pos": 357.528,
+        "x_passive_pos": 29.841,
+        "y_passive_pos": -298.364,
+        "z_passive_pos": 331.704,
+        "x_coordinate_id": "-z",
+        "y_coordinate_id": "y",
+        "maxAngle_indicator": "r",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "b",
+        "neg_tendon": "r",
+        "x_tendon_pos": 42.493,
+        "y_tendon_pos": -328.033,
+        "z_tendon_pos": 324.325
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      }
+    },
+    "left": {
+      "tendons": {
+        "x_active_pos": -34.112,
+        "y_active_pos": -202.863,
+        "z_active_pos": 305.541,
+        "x_passive_pos": -27.659,
+        "y_passive_pos": -298.364,
+        "z_passive_pos": 331.459,
+        "x_coordinate_id": "z",
+        "y_coordinate_id": "y",
+        "maxAngle_indicator": "b",
+        "blue_alpha_passive_oversized": false,
+        "red_alpha_passive_oversized": false,
+        "pos_tendon": "r",
+        "neg_tendon": "b",
+        "x_tendon_pos": -40.81,
+        "y_tendon_pos": -328.147,
+        "z_tendon_pos": 338.333
+      },
+      "inner_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "b",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      },
+      "outer_pulley": {
+        "l_max_ratio": 1.75,
+        "pretensioning": 30,
+        "tendon_id": "r",
+        "active_top_indicator": "+y",
+        "pulley_numbers_switch": 1
+      }
+    }
+  }
+}
