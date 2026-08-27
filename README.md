@@ -1,4 +1,4 @@
-# gh360_joint_configuration_app
+# GH360 Joint Configuration App
 A MATLAB application that helps the user with setting up a joint on the GH360 robot
 
 # Requirements
